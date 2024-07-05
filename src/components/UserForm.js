@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
-import UserContext from "../Context/UserContext";
+// import UserContext from "../Context/UserContext.js";
+import UserContext from "../context/UserContext";
 
 const UserForm = () => {
   const [localMsg, setLocalMsg] = useState("");
